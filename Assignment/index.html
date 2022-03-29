@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable And BioData</title>
+    <table border="5" cellspacing="10" cellpadding = "10" bgcolor = "gainsboro">
+
+        <thead>
+        <tr>
+            <th> Days/Periods </th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th></th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            
+        </tr>
+
+        </thead>
+
+        <tbody>
+        <tr>     
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td rowspan = "6">B
+                <br>
+                R
+                <br>
+                E
+                <br>
+                A
+                <br>
+                K
+                <br>
+            </td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+        <tr>
+            <td>Tue</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td>Science</td>
+            <td>English</td>
+            <td rowspan = "3">Hindi</td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+
+        </tr>
+        <tr>
+            <td>Thu</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+        <tr>
+            <td>Fri</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Games</td>
+            <td>Moral Science</td>
+        </tr>
+        <tr>
+            <td>Sat</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td colspan = "3">Maths</td>
+            
+        </tr>
+        
+        </tbody>
+
+        <tfoot>
+         <tr>
+             <th colspan = "8">This is Class VIII</th>
+         </tr>
+
+
+
+        </tfoot>
+          
+
+    </table>
+    <h1>My Bio Data</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder = "First Name" id = "firstname">
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder = "Last Name" id = 'lastname'>
+        <br>
+        <br>
+        Male:
+        <input type="radio" name = "gender" >
+
+        Female:
+        <input type="radio" name = "gender">
+
+        Other:
+        <input type="radio" name = "gender">
+        
+        
+        <br>
+        <br>
+        
+        <label for="date">Date of Birth:</label>
+        <input type="date" id = "date">
+
+        <br>
+        <br>
+        <label for="mail">E-Mail:</label>
+        <input type="email" placeholder = "Enter Your Email" id="mail">
+
+        <br>
+        <br>
+
+        <label for="tel">Phone:</label>
+        <input type="tel" placeholder="+91" id="tel">
+        
+        <br>
+        <br>
+        <label for="Height">Height:</label>
+        <input type="number" placeholder = "Height in Feet" id = "Height">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Education</legend>
+        <label for="school">School Name:</label>
+        <input type="text" placeholder = "School Name" id ="school">
+        <br>
+        <br>
+
+        <label for="class">Class:</label>
+        <input type="text" placeholder = "Enter Class" id="class">
+ 
+        <br>
+        <br>
+        <label for="pet-name">Stream:</label>
+        <select name="pets" id="pet-name">
+           <option selected disabled value="">Stream</option>
+           <option value="">Science</option>
+           <option value="">Arts</option>
+           <option value="">Other</option>
+        </select>
+        
+        <br>
+        <br>
+        Marksheet:
+        <input type="file">
+        
+    </fieldset>
+    <br>
+    <button type = "submit">Submit</button>
+</head>
+<body>
+    
+</body>
+</html>
